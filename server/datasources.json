@@ -4,12 +4,18 @@
     "connector": "memory"
   },
   "mysqlDs": {
-    "name": "mysqlDs",
-    "connector": "mysql",
-    "host": "demo.strongloop.com",
+    "host": "localhost",
     "port": 3306,
-    "database": "getting_started",
-    "username": "demo",
-    "password": "L00pBack"
+    "database": "strongloop",
+    "username": "root",
+    "name": "mysqlDs",
+    "connector": "mysql"
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "getting_started_intermediate",
+    "name": "mongoDs",
+    "connector": "mongodb"
   }
 }
